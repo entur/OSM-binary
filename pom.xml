@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>crosby.binary</groupId>
@@ -13,7 +13,7 @@
   <licenses>
     <license>
       <name>GNU General Lesser Public License (LGPL) version 3.0</name>
-      <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
+	  <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -25,10 +25,10 @@
   <build>
     <sourceDirectory>${basedir}/src.java</sourceDirectory>
 
-    <resources><resource><directory>${basedir}/resources</directory></resource></resources>
+   <resources><resource><directory>${basedir}/resources</directory></resource></resources>
 
     <plugins>
-      <plugin>
+	  <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
@@ -72,7 +72,5 @@
       <artifactId>protobuf-java</artifactId>
       <version>3.8.0</version>
     </dependency>
-
-
   </dependencies>
 </project>
