@@ -22,6 +22,14 @@
     <connection>https://github.com/scrosby/OSM-binary.git</connection>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>snapshots</id>
+      <name>entur2-releases</name>
+      <url>https://entur2.jfrog.io/entur2/libs-release-local</url>
+    </repository>
+  </distributionManagement>
+
   <build>
     <sourceDirectory>${basedir}/src.java</sourceDirectory>
 
